@@ -11,5 +11,5 @@ This repo includes the code used for the analysis done for the paper 'Using mach
                      deletes them and leaves the genome with the original label. It's done to try and see how the algorithms deals with lack of data.
 6. CreateHistograms.py -> This script is used to create a histogram of # of 0/1/2 per sick/healthy groups + printing statistics.
 7. AddNoiseSNP.py -> This script gets as input a file with correct labels according to some model and number of SNPs to be added and then it adds them and leave the same labels. It's done to try and see how the algorithms deals with noise data.
-8. case_48 -> 48 alleles with the least NaN values of the original data for cases of Crohn's disease
-9. control_48 -> 48 alleles with the least NaN values of the original data for control cases
+8. case_48.csv -> 48 alleles with the least NaN values of the original data for cases of Crohn's disease
+9. control_48.csv -> 48 alleles with the least NaN values of the original data for control cases
